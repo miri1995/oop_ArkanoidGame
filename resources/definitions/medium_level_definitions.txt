@@ -1,0 +1,83 @@
+# Level 1
+# Sea
+
+
+START_LEVEL
+level_name:Dream
+ball_velocities:30,500 0,500 -30,500
+background:image(background_images/sea.jpg)
+paddle_speed:500
+paddle_width:100
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:20
+blocks_start_y:60
+row_height:25
+num_blocks:44
+START_BLOCKS
+-
+-
+-
+-
+pppp--ppp--pppp
+cccc--ccc--cccc
+yyyy--yyy--yyyy
+oooo--ooo--oooo
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Desert
+
+START_LEVEL
+level_name: Desert
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/level2.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:60
+blocks_start_y:100
+row_height:25
+num_blocks:90
+START_BLOCKS
+
+ppppp----yyyyy
+yyyyy----ppppp
+ppppp----yyyyy
+yyyyy----ppppp
+ppppp----yyyyy
+yyyyyooooppppp
+pppppooooyyyyy
+-----oooo-----
+-----oooo-----
+-----oooo-----
+
+END_BLOCKS
+END_LEVEL
+# Level 3
+# Dolphin
+
+START_LEVEL
+level_name: Dolphin
+ball_velocities:45,550
+background:image(background_images/dolphin.jpg)
+paddle_speed:650
+paddle_width:90
+block_definitions:definitions/stripes_block_definitions.txt
+blocks_start_x:70
+blocks_start_y:170
+row_height:25
+num_blocks:80
+START_BLOCKS
+
+ststs----tstst
+tstst----ststs
+ststs----tstst
+tstst----ststs
+ststs----tstst
+tstst----ststs
+ststs----tstst
+tstst----ststs
+
+END_BLOCKS
+END_LEVEL
